@@ -1,0 +1,323 @@
+Unity Editor version:    2021.3.8f1 (b30333d56e81)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+/Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+50214
+Successfully changed project path to: /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project
+/Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 148.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 560X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56874
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000853 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 95.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.6 KB). Loaded Objects now: 3841.
+Memory consumption went from 307.5 MB to 307.4 MB.
+Total: 3.762082 ms (FindLiveObjects: 0.323496 ms CreateObjectMapping: 0.240261 ms MarkObjects: 3.045559 ms  DeleteObjects: 0.151524 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9070.242708 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe01Base01b.fbx
+  artifactKey: Guid(5bff0afe89f45c442bf22d23df58e7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe01Base01b.fbx using Guid(5bff0afe89f45c442bf22d23df58e7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cbd4712cb91e9383f8f1894985948e') in 0.428652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe03Curve01b.fbx
+  artifactKey: Guid(2596046d8f9744e45acf1cb82a354918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe03Curve01b.fbx using Guid(2596046d8f9744e45acf1cb82a354918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202cf8ff196b74e1a7d468d69bfd5b4e') in 0.023630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe01e.fbx
+  artifactKey: Guid(68ea1f99c3e2caf4bbf49cc16c0a3bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe01e.fbx using Guid(68ea1f99c3e2caf4bbf49cc16c0a3bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8c39e876afe4103f3eb3bde9b7fddf') in 0.020823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe03b.fbx
+  artifactKey: Guid(ea127554282369840991e6e5f79e1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe03b.fbx using Guid(ea127554282369840991e6e5f79e1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e621ce40a549a24f6c89375eeb28d9d') in 0.019504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe01Fitting01h.fbx
+  artifactKey: Guid(22e587a632b74824b9e9e92fce29b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe01Fitting01h.fbx using Guid(22e587a632b74824b9e9e92fce29b55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dceedfa85f872a65d120ffe73d2d6a1') in 0.028677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe01Curve01d.fbx
+  artifactKey: Guid(8db2a95f4a22b0e4d9503069f767deab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe01Curve01d.fbx using Guid(8db2a95f4a22b0e4d9503069f767deab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559613c5eb556311553d217f61387408') in 0.021406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Laboratory/Models/Architecture/Pipes/Pipe01Curve02.fbx
+  artifactKey: Guid(25a21376d7585a74981dd8394fb31cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Pipes/Pipe01Curve02.fbx using Guid(25a21376d7585a74981dd8394fb31cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a5a9906190c71b086508659fda67fd') in 0.026153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.187987 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall02/Wall02bTop.fbx
+  artifactKey: Guid(500fe5433f1726e4e9b96ec25eeaaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall02/Wall02bTop.fbx using Guid(500fe5433f1726e4e9b96ec25eeaaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93168e1bf760c7d1ef83e84987ba459d') in 0.038690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall02/Wall02CornerIntTop.fbx
+  artifactKey: Guid(7c4114732cca2f5438b6b1a6c09983f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall02/Wall02CornerIntTop.fbx using Guid(7c4114732cca2f5438b6b1a6c09983f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca271520edd6d02b588ef2ffa3e5014') in 0.039418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall02/Wall02bWindow.fbx
+  artifactKey: Guid(95da567babc1e2544b901389894095c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall02/Wall02bWindow.fbx using Guid(95da567babc1e2544b901389894095c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b71e2f275ae810d88af818101e490a7') in 0.018370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall02/Wall02Window02CornerExt.fbx
+  artifactKey: Guid(25dede05c65b1994f817b720937478f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall02/Wall02Window02CornerExt.fbx using Guid(25dede05c65b1994f817b720937478f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c65f617af62832f19fef9ce2182d539') in 0.022035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall02/Wall02Window02CornerInt.fbx
+  artifactKey: Guid(76698d9f4d0eff347bcbc927eaf681e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall02/Wall02Window02CornerInt.fbx using Guid(76698d9f4d0eff347bcbc927eaf681e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040b4c7fd18ee51057946575eeac780c') in 0.022926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.227571 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall03/Wall03bTop.fbx
+  artifactKey: Guid(c73a0b6f7c5baa04297ff995496a0fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall03/Wall03bTop.fbx using Guid(c73a0b6f7c5baa04297ff995496a0fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d0f2585acad3e1b9a528e431bb8dec') in 0.022786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall03/Wall03cWindow.fbx
+  artifactKey: Guid(8ced915290244084eb9970d34c1cf255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall03/Wall03cWindow.fbx using Guid(8ced915290244084eb9970d34c1cf255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8de6147cd15e609d6d069a692b5a57') in 0.023349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall03/Wall03Door.fbx
+  artifactKey: Guid(31d11ec7cc82a8840b7f2cabe4eb17fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall03/Wall03Door.fbx using Guid(31d11ec7cc82a8840b7f2cabe4eb17fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3fcc0188201aa8a2d86aaf3edc4a7c') in 0.032559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall03/Wall03Window.fbx
+  artifactKey: Guid(4fe68b0f1a5d7db479b81297cca07373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall03/Wall03Window.fbx using Guid(4fe68b0f1a5d7db479b81297cca07373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19ba317d0b9bbe7101e28a64e629f0f') in 0.023599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.774380 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall04/Wall04c.fbx
+  artifactKey: Guid(dfc17bd03f1c0f443a75b6228d9081a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall04/Wall04c.fbx using Guid(dfc17bd03f1c0f443a75b6228d9081a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4247c3c240f740792f38dd619dba8bf') in 0.024713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Laboratory/Models/Architecture/Wall04/Wall04CornerExt.fbx
+  artifactKey: Guid(5f5f1ec2ea55c6a4ab322fdfc671b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Wall04/Wall04CornerExt.fbx using Guid(5f5f1ec2ea55c6a4ab322fdfc671b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9772ff7e6e6bb4dd66635be5d74cde') in 0.042615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.435236 seconds.
+  path: Assets/Laboratory/Models/Architecture/CeilingGrid/CeilingGridPannelUp.fbx
+  artifactKey: Guid(5db0a758b76aed043ae7bf51d2160442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/CeilingGrid/CeilingGridPannelUp.fbx using Guid(5db0a758b76aed043ae7bf51d2160442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55abe8ff036c12ce53108b4939c6a517') in 0.020600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Laboratory/Models/Architecture/CeilingGrid/CeilingGridUp.fbx
+  artifactKey: Guid(eb61c2bd64324b64298a26fb319e3378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/CeilingGrid/CeilingGridUp.fbx using Guid(eb61c2bd64324b64298a26fb319e3378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef0a56461668277e576c1451a9fa0dd') in 0.034266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Laboratory/Models/Architecture/CeilingGrid/CeilingGridUpRight.fbx
+  artifactKey: Guid(9fc5511f230f4c64abc24170647dc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/CeilingGrid/CeilingGridUpRight.fbx using Guid(9fc5511f230f4c64abc24170647dc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad2a645f6653d028ebc9ed421ad0dc2') in 0.023259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.219179 seconds.
+  path: Assets/Laboratory/Models/Architecture/Door/Door01Window.fbx
+  artifactKey: Guid(7ab32cb2a0c130640b2c160fce8fe2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/Door/Door01Window.fbx using Guid(7ab32cb2a0c130640b2c160fce8fe2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd6d57a6cc39aad6cbd655e0b525780') in 0.020482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.219547 seconds.
+  path: Assets/Laboratory/Models/Architecture/FloorBorder/FloorBorder01CornerExt.fbx
+  artifactKey: Guid(448be110d7e8a6c438843d1d61e08b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Models/Architecture/FloorBorder/FloorBorder01CornerExt.fbx using Guid(448be110d7e8a6c438843d1d61e08b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b73d465e9c3af73e58c956d20d34b23') in 0.027411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.266026 seconds.
+  path: Assets/Laboratory/Textures/Surfaces/FloorLino/Materials/FloorLino01Green_MaskMap.png
+  artifactKey: Guid(404e6085e7bba9e44b06daf6720c6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Textures/Surfaces/FloorLino/Materials/FloorLino01Green_MaskMap.png using Guid(404e6085e7bba9e44b06daf6720c6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d0a55b295a588a760f9f40c2d2fab4') in 0.143855 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

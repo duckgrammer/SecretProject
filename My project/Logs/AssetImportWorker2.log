@@ -1,0 +1,593 @@
+Unity Editor version:    2021.3.8f1 (b30333d56e81)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50214
+Successfully changed project path to: /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project
+/Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 107.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 560X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56142
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001760 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 103.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Domain Reload Profiling:
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002083 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1337ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/umphaipunatipunumphai/Documents/Change++/2021.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.5 KB). Loaded Objects now: 3839.
+Memory consumption went from 233.7 MB to 233.6 MB.
+Total: 3.659769 ms (FindLiveObjects: 0.304967 ms CreateObjectMapping: 0.264823 ms MarkObjects: 2.963746 ms  DeleteObjects: 0.125395 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8593.187756 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/CeilingLamp/CeilingLamp01.prefab
+  artifactKey: Guid(6482a355bf9be7f43b3d96c28a104d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/CeilingLamp/CeilingLamp01.prefab using Guid(6482a355bf9be7f43b3d96c28a104d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64bdb8d757d01e543035f08743227b0') in 0.956104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.134192 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01.prefab
+  artifactKey: Guid(1f23e51563fa38d47ae022b9da524877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01.prefab using Guid(1f23e51563fa38d47ae022b9da524877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520a82aac3ad7c3b857b67cae71aaae3') in 0.028836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting01b.prefab
+  artifactKey: Guid(72d6f1339023d71458e0ec6a54e232dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting01b.prefab using Guid(72d6f1339023d71458e0ec6a54e232dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f4a4cb379807ac91126ad79dc857e8') in 0.190953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Curve01b.prefab
+  artifactKey: Guid(75ec155005cc1c548983132b713211ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Curve01b.prefab using Guid(75ec155005cc1c548983132b713211ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42301c05b342031156a400a8f4b4e11f') in 0.020875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe02e.prefab
+  artifactKey: Guid(e76d5a7c25f049d40b4f22dbd59bfef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe02e.prefab using Guid(e76d5a7c25f049d40b4f22dbd59bfef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293815974b71e8c35b7c99b790381685') in 0.020080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe03Curve01c.prefab
+  artifactKey: Guid(7bef271199d7dcc408272849b1085c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe03Curve01c.prefab using Guid(7bef271199d7dcc408272849b1085c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90477947870ed3d4999e60dee8de974') in 0.028451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Curve01c.prefab
+  artifactKey: Guid(a3ab1edf1ccdddc4fa1ca05917effcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Curve01c.prefab using Guid(a3ab1edf1ccdddc4fa1ca05917effcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6c93e993e06509468181844dd58bcc') in 0.021756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe03e.prefab
+  artifactKey: Guid(f5e8b4abcd13144458f411e833407022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe03e.prefab using Guid(f5e8b4abcd13144458f411e833407022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54df333661d8be54598bad284329902') in 0.023811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02.prefab
+  artifactKey: Guid(1d8a4be701018f942acf464ad2ca6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02.prefab using Guid(1d8a4be701018f942acf464ad2ca6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2942a0137f94bcf35f692aad54d96606') in 0.025126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting01c.prefab
+  artifactKey: Guid(1d48cde7fef4a3b4198147c642e33c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting01c.prefab using Guid(1d48cde7fef4a3b4198147c642e33c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16709928a68d1fa6a1c6f2d8c6c0473') in 0.022145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Curve01.prefab
+  artifactKey: Guid(c3699a32649718544ae4e90166ab9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Curve01.prefab using Guid(c3699a32649718544ae4e90166ab9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab50bbc1438736bb65695d36a8b9b8') in 0.022101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02c.prefab
+  artifactKey: Guid(68680943312c6ee4291ab59695d2e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02c.prefab using Guid(68680943312c6ee4291ab59695d2e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abde01b61575231dfa4b5faca70b610b') in 0.036243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02b.prefab
+  artifactKey: Guid(717d1ad8a1df88d4da77788c616f928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02b.prefab using Guid(717d1ad8a1df88d4da77788c616f928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860d410483bdbb22da614cc2fbc302d2') in 0.021797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe02Fitting01.prefab
+  artifactKey: Guid(35568d4ee4ad99a45adfbfce77fbd6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe02Fitting01.prefab using Guid(35568d4ee4ad99a45adfbfce77fbd6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877e9469cfa6daa2bf589fad19964080') in 0.023020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02e.prefab
+  artifactKey: Guid(eefc546f1e8c38848b4800bd37f1ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe01Fitting02e.prefab using Guid(eefc546f1e8c38848b4800bd37f1ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07273c88e12763214a050a11b4dbd2f9') in 0.155207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe02c.prefab
+  artifactKey: Guid(33a29d1b5efaea346b06ea67e280b9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe02c.prefab using Guid(33a29d1b5efaea346b06ea67e280b9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a4a613436e03b866be52260755f328') in 0.021286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe03b.prefab
+  artifactKey: Guid(d8591ebd0c7c4be4f9edf3120b5297ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Pipes/Pipe03b.prefab using Guid(d8591ebd0c7c4be4f9edf3120b5297ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a36135f92941a2a7513c8920d4b83e') in 0.025245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.567795 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01.prefab
+  artifactKey: Guid(51e09f39523e52e418d7f50830c20248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01.prefab using Guid(51e09f39523e52e418d7f50830c20248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf819bb9722a67a04eee0d2925a4c406') in 0.050261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01CornerIntTop.prefab
+  artifactKey: Guid(7cfa7a8349da81d40a18c5691bb83dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01CornerIntTop.prefab using Guid(7cfa7a8349da81d40a18c5691bb83dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0792463d610a8e91097abf1b75aba8a0') in 0.037749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01cDoor.prefab
+  artifactKey: Guid(dcb2791561921d74c8753670f8165173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01cDoor.prefab using Guid(dcb2791561921d74c8753670f8165173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a82c4fd2eaa56b4d694d74fc7113dde') in 0.041714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01CornerExtTop.prefab
+  artifactKey: Guid(627ef2abfa051b7479d3b65702dcf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall01/Wall01CornerExtTop.prefab using Guid(627ef2abfa051b7479d3b65702dcf267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d28858440ed483b669eed92ddafa46') in 0.033928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.501911 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02.prefab
+  artifactKey: Guid(d307bd6323827fe47bfae0a700d96f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02.prefab using Guid(d307bd6323827fe47bfae0a700d96f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b97d3ee62c26a3147ea8f33152ba63') in 0.027568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02WindowCornerInt.prefab
+  artifactKey: Guid(0805fcc151208bd44af0d1de0980d941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02WindowCornerInt.prefab using Guid(0805fcc151208bd44af0d1de0980d941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a574e2e0f36f622fb22efaee76cdaf95') in 0.099464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02Door.prefab
+  artifactKey: Guid(c58a44145ab52a34f8d8df3519c5cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02Door.prefab using Guid(c58a44145ab52a34f8d8df3519c5cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8dc5b60c643931bbc7bfff16720aff') in 0.028591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02CornerInt.prefab
+  artifactKey: Guid(c316a196110f76e45b15809eb225c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02CornerInt.prefab using Guid(c316a196110f76e45b15809eb225c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c085d8d30a417a8439e157c7d97eb2') in 0.030358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02bWindow.prefab
+  artifactKey: Guid(73a00857b8f6ccd439f27e3618db7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall02/Wall02bWindow.prefab using Guid(73a00857b8f6ccd439f27e3618db7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a417db64dc8b544f87bf8197520fd91') in 0.031599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.546259 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall03/Wall03.prefab
+  artifactKey: Guid(af27fb19e85772e488d7121d8212e0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall03/Wall03.prefab using Guid(af27fb19e85772e488d7121d8212e0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98124fec707fb7d56a8d94d99acf151f') in 0.013632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Laboratory/Prefabs/Architecture/Wall03/Wall03bWindow.prefab
+  artifactKey: Guid(bf9bfa891762ee04c9848a3745adfbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Architecture/Wall03/Wall03bWindow.prefab using Guid(bf9bfa891762ee04c9848a3745adfbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29130ced6d3168b78d0536317e79b5f0') in 2.991363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.531221 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Bench/Bench01.prefab
+  artifactKey: Guid(efc081b1deb4aaa43836e0f371885598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Bench/Bench01.prefab using Guid(efc081b1deb4aaa43836e0f371885598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9326177e2a1f4353ab85d8c111544bfd') in 0.038121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Bench/Bench02.prefab
+  artifactKey: Guid(8a8f823ac4094e5458d3053cf2702d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Bench/Bench02.prefab using Guid(8a8f823ac4094e5458d3053cf2702d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7f784deadd95dabbe32bc9fa2c5fb6') in 0.042630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Bench/Bench02b.prefab
+  artifactKey: Guid(b2dcc08fb02857748b93731acc1205cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Bench/Bench02b.prefab using Guid(b2dcc08fb02857748b93731acc1205cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e71159efa1ff05fe09f50fe6b839449') in 0.041813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.975463 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Cabinet/Cabinet01.prefab
+  artifactKey: Guid(c145836f40bded94eb966716ca6f9c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Cabinet/Cabinet01.prefab using Guid(c145836f40bded94eb966716ca6f9c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d01cea6ea8c17aedfbe06e37718860') in 0.047795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.704820 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Cupboard/Cupboard01.prefab
+  artifactKey: Guid(e41f574fe1069ee469212927833556ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Cupboard/Cupboard01.prefab using Guid(e41f574fe1069ee469212927833556ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702f12bef44d748fc98507e4f8532086') in 0.105997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.588151 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Fridge/Fridge01.prefab
+  artifactKey: Guid(2b036611616cb1249ab16e017c0e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Fridge/Fridge01.prefab using Guid(2b036611616cb1249ab16e017c0e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518e2297b461c8de631097070e5f95bd') in 0.054875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.061688 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/Misc/WhiteBoard01.prefab
+  artifactKey: Guid(c1088afaeec76bd47aa0785318cd6ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/Misc/WhiteBoard01.prefab using Guid(c1088afaeec76bd47aa0785318cd6ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bca180224d02c77d695a956ddaf25a6') in 0.039352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691837 seconds.
+  path: Assets/Laboratory/Prefabs/Furniture/OverBench/Overbench01.prefab
+  artifactKey: Guid(99f8d5bc37249d544b41509806d5f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Prefabs/Furniture/OverBench/Overbench01.prefab using Guid(99f8d5bc37249d544b41509806d5f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69680e7c89bd689562efaba48acb2e0d') in 0.069861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.712139 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory.unity
+  artifactKey: Guid(646a9ede16d05314a85190f65c1278f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory.unity using Guid(646a9ede16d05314a85190f65c1278f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2afd35dce0b5a3777fddf535b02acc') in 0.000896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.519103 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0447bbca8fd1631f2fd6b29e0142cb8e') in 0.001046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.676944 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/LightingData.asset
+  artifactKey: Guid(eba0ab95f356ddd4a921789bd2d71ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/LightingData.asset using Guid(eba0ab95f356ddd4a921789bd2d71ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8531a3be7ab7c3a6e56de5f6c8b30d') in 0.214669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-17_comp_dir.png
+  artifactKey: Guid(da16434ec16cb3742aafc57e499f3914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-17_comp_dir.png using Guid(da16434ec16cb3742aafc57e499f3914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875c9bf5b79328edbfda32eb3a4b1000') in 1.003724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-11_comp_shadowmask.png
+  artifactKey: Guid(63f055734b3b4c44bb9b9db4e473e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-11_comp_shadowmask.png using Guid(63f055734b3b4c44bb9b9db4e473e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5344a01d925f0bd51d27a86228140565') in 0.051019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-7_comp_light.exr
+  artifactKey: Guid(a66582694c2332b4ba60b6a9fb9564aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-7_comp_light.exr using Guid(a66582694c2332b4ba60b6a9fb9564aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547514943b029d80a94311bb823e69d') in 1.224419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-5_comp_dir.png
+  artifactKey: Guid(df11347f6771adf47bdba66297ec7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-5_comp_dir.png using Guid(df11347f6771adf47bdba66297ec7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999507a53d4f5d19b229526755e47f0a') in 0.033433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-12_comp_shadowmask.png
+  artifactKey: Guid(8df44ab0c0856a4418dbd9cb270f8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-12_comp_shadowmask.png using Guid(8df44ab0c0856a4418dbd9cb270f8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5704ed5a02121b36fbd8e41449f9e') in 0.043209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-14_comp_light.exr
+  artifactKey: Guid(c66d54d6091d3624bb665f114cd2bea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-14_comp_light.exr using Guid(c66d54d6091d3624bb665f114cd2bea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e4dee900a7e1f30bdff5404f5ccb3f') in 0.026520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-13_comp_dir.png
+  artifactKey: Guid(e45a22465116f5e44b1aca966d566b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-13_comp_dir.png using Guid(e45a22465116f5e44b1aca966d566b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a86b7a762cd39526676656d682edec') in 0.017071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(82ffd1084c0af3542ac8f044eaa7fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-13_comp_shadowmask.png using Guid(82ffd1084c0af3542ac8f044eaa7fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34c46cfc75d5e9533a8d6b43e9e3397') in 0.046755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-12_comp_dir.png
+  artifactKey: Guid(66e79e4da19cb624b9bd0f1ca74590d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-12_comp_dir.png using Guid(66e79e4da19cb624b9bd0f1ca74590d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6574a2b6efe6015b6719914dacffa894') in 0.029859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-15_comp_light.exr
+  artifactKey: Guid(4f4c2ba6f78a0a9408082f19f1530216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-15_comp_light.exr using Guid(4f4c2ba6f78a0a9408082f19f1530216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902e494fb763a73480870a1223c722bd') in 0.025661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-4_comp_light.exr
+  artifactKey: Guid(80773453471ddcd48aefb23433acfe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-4_comp_light.exr using Guid(80773453471ddcd48aefb23433acfe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a535cdf323bd797644be9bfe3d1634') in 0.023269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a8a199cdd24ef90429a4afdfcb239049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-8_comp_light.exr using Guid(a8a199cdd24ef90429a4afdfcb239049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2b6747746232e7189aa9a108aac255') in 0.030328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-11_comp_dir.png
+  artifactKey: Guid(4e83c0092da0c974f921948669505c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-11_comp_dir.png using Guid(4e83c0092da0c974f921948669505c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44965630bc0fd0173ea9409c7ed4f0ef') in 0.023091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-18_comp_light.exr
+  artifactKey: Guid(79259131e35a655429aaa9787852879a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-18_comp_light.exr using Guid(79259131e35a655429aaa9787852879a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4c7dfcbb609834800a21829f7370e6') in 0.022308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-1_comp_dir.png
+  artifactKey: Guid(97c7e1f520d5c3b4ca83c48c9a967b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-1_comp_dir.png using Guid(97c7e1f520d5c3b4ca83c48c9a967b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6d77d2773032842c14a232be8a289c') in 0.017160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-16_comp_dir.png
+  artifactKey: Guid(93d69822b62c2fa4b908afbf1f8a0755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-16_comp_dir.png using Guid(93d69822b62c2fa4b908afbf1f8a0755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b891f472edc37a671a91f969eacae') in 0.024082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-16_comp_light.exr
+  artifactKey: Guid(1a565d80b202b04458e1e01216900de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-16_comp_light.exr using Guid(1a565d80b202b04458e1e01216900de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19bb7478ab34e7ce44cb5edc9e76730') in 0.015047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(fb6b33757252cc844ac2345b75712317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-1_comp_shadowmask.png using Guid(fb6b33757252cc844ac2345b75712317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3640d88202a186011360a87b2bca1e99') in 0.059841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-18_comp_dir.png
+  artifactKey: Guid(cb1dfb964f3195a40b19dd088b8217ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-18_comp_dir.png using Guid(cb1dfb964f3195a40b19dd088b8217ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e469c50dde510154b06d24ddf0ab85') in 0.021259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-3_comp_light.exr
+  artifactKey: Guid(6e6d234a83a1a954e89fe69872465faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-3_comp_light.exr using Guid(6e6d234a83a1a954e89fe69872465faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaeb6fa9bc5108266748ef74867e0b0') in 0.021941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-3_comp_dir.png
+  artifactKey: Guid(bcc091f7bd481ab4c85c0c878771b0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-3_comp_dir.png using Guid(bcc091f7bd481ab4c85c0c878771b0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feefc30e4562bb5f269277ddbf30e78') in 0.023403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-4_comp_dir.png
+  artifactKey: Guid(be88843c290f42f419d2f8baa7b862a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-4_comp_dir.png using Guid(be88843c290f42f419d2f8baa7b862a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544718bf8cbddeaf38993fde06087dba') in 0.020265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-10_comp_dir.png
+  artifactKey: Guid(d24f14963e4da4844be69eb16b314d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-10_comp_dir.png using Guid(d24f14963e4da4844be69eb16b314d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37db75a3c41a524ea9acff3ef6dacf7') in 0.018102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-15_comp_dir.png
+  artifactKey: Guid(afd4272044a062745ae427819c131ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-15_comp_dir.png using Guid(afd4272044a062745ae427819c131ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64a00e07afd67fdd30efb935bcb9b86') in 0.028120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-8_comp_dir.png
+  artifactKey: Guid(0006fd961ddf1ae448d641167bffe115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-8_comp_dir.png using Guid(0006fd961ddf1ae448d641167bffe115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e88bad92f817e6f4475d58ccdc574d') in 0.022745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-5_comp_shadowmask.png
+  artifactKey: Guid(49e012cebff543b4d92dcdd7bb461673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-5_comp_shadowmask.png using Guid(49e012cebff543b4d92dcdd7bb461673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc500d53ec4408ceff88aa89efa32ef9') in 0.044516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(9291dedc22202db40a22d9dc0f0c8f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-4_comp_shadowmask.png using Guid(9291dedc22202db40a22d9dc0f0c8f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60feb6d89596832b337e1177920b2e7') in 0.062645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-5_comp_light.exr
+  artifactKey: Guid(a2784b3c5fa0d5e44b99c09f300a4cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Laboratory/Scene_Laboratory/Lightmap-5_comp_light.exr using Guid(a2784b3c5fa0d5e44b99c09f300a4cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716ca9d4d88ccbc018437e823b16bd76') in 0.018439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.990523 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Prefabs/Scene_Prefabs/LightingData.asset
+  artifactKey: Guid(3dd6c2d8a9c76ba4cada43efb10f8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Prefabs/Scene_Prefabs/LightingData.asset using Guid(3dd6c2d8a9c76ba4cada43efb10f8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72850f38ac2c47553015d29e346a9c90') in 0.004821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Laboratory/Scenes/Scene_Prefabs/Scene_Prefabs/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(dac5a585f0610614b95fd1ecdc7e4aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Scenes/Scene_Prefabs/Scene_Prefabs/Sky and Fog Settings Profile.asset using Guid(dac5a585f0610614b95fd1ecdc7e4aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caafb73ddf64242c5602e258af59bc86') in 0.001832 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
