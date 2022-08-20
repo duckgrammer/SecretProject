@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17763
+  controlID: 29184
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,9 +250,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.4710865, y: 12.986967, z: -6.853021}
+    m_Target: {x: 11.458114, y: 12.979431, z: -6.7826667}
     speed: 2
-    m_Value: {x: 11.4710865, y: 12.986967, z: -6.853021}
+    m_Value: {x: 11.458114, y: 12.979431, z: -6.7826667}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -299,13 +299,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.19733767, y: 0.5874858, z: -0.15051909, w: -0.77024245}
+    m_Target: {x: -0.25769672, y: 0.28648198, z: -0.08031117, w: -0.9192835}
     speed: 2
-    m_Value: {x: -0.19733657, y: 0.5874825, z: -0.15051824, w: -0.77023816}
+    m_Value: {x: -0.25769526, y: 0.28648034, z: -0.08031071, w: -0.91927826}
   m_Size:
-    m_Target: -0.0032949622
+    m_Target: 0.027511705
     speed: 2
-    m_Value: -0.0031949622
+    m_Value: 0.026251627
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17764
+  controlID: 29185
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17765
+  controlID: 29186
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,7 +439,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: de400100
       m_LastClickedID: 82142
-      m_ExpandedIDs: ee7efcffa27ffcff88a7fcffc6a8fcff244bfdff8c4bfdfffc4bfdff90effdffce18feff7246feff4e6afeff5c0dffff820fffffa0b1ffff32fbfffff2d700007ae0000048f400004cf40000740d01004e1101007a180100be400100c2400100f2400100
+      m_ExpandedIDs: a828fcffd028fcff0c2afcffee7efcffa27ffcff88a7fcffc6a8fcff244bfdff8c4bfdfffc4bfdff90effdffce18feff7246feff4e6afeff5c0dffff820fffffa0b1ffff32fbfffff2d700007ae0000048f400004cf40000740d01004e1101007a180100be400100c2400100f2400100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -490,7 +490,7 @@ MonoBehaviour:
   - {fileID: 8}
   - {fileID: 9}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -679,23 +679,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Laboratory/Textures/Surfaces/Materials
+    - Assets/Laboratory/Prefabs/Props/Hardware
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Laboratory/Textures/Surfaces/Materials
+  - Assets/Laboratory/Prefabs/Props/Hardware
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/umphaipunatipunumphai/Documents/GitHub/SecretProject/My
     project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 187}
-    m_SelectedIDs: ec870000
-    m_LastClickedID: 34796
-    m_ExpandedIDs: 000000004e5a0000565a0000c88700004688000084880000ec8800009a890000fa890000088c000000ca9a3b
+    scrollPos: {x: 0, y: 327}
+    m_SelectedIDs: 5a8b0000
+    m_LastClickedID: 35674
+    m_ExpandedIDs: 000000004e5a0000565a0000c8870000468800004e88000084880000ec8800009a890000fa890000c08a0000088c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,7 +723,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e5a0000565a0000c88700004688000084880000ec8800009a890000fa890000088c000000ca9a3b
+    m_ExpandedIDs: 000000004e5a0000565a0000c8870000468800004e88000084880000ec8800009a890000fa890000c08a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -775,7 +775,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 14}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 206
